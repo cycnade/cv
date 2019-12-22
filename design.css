@@ -1,5 +1,6 @@
 body {
 	margin:0;
+	text-align: center;
 }
 div {
 	position: relative;
@@ -12,6 +13,18 @@ p {
     }
 span{
 	text-decoration: underline;
+
+}
+a:hover{
+	background-color: yellow;
+}
+.intro{
+	font-size: 6em;
+	margin-bottom: 0px;
+	color: #66bfbf;
+}
+h3{
+	font-family: Lato;
 }
 h2{
 	font-family: Lato;
@@ -28,6 +41,9 @@ h1{
 .font {
 	font-family: Lato;
 	margin-right: 80px;
+	color: #66bfbf;
+	font-size: 350%;
+	font-weight: 800;
 }
 .top{
 	width:100%;
@@ -49,10 +65,15 @@ h1{
 	width:100%;
 	height:100px;
 	background-color:#f3f3f3;
-	padding-bottom: 1050px;
+	padding-bottom: 830px;
+	padding-left: 0px;
 	
 }
-
+hr{
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+}
 .topcld{
 	position: absolute;
 	right: 30%;
@@ -60,8 +81,8 @@ h1{
 }
 .botcld{
 	position: absolute;
-	left:30%;
-	top:40%;
+	left:25%;
+	top:50%;
 }
 .mountain{
 	position:absolute;
@@ -79,13 +100,41 @@ h1{
 	text-align: center;
 	margin-left: 30px;
 }
+li{
+	 font-family:Indie Flower;
+	 font-size: 150%;
 
+}
 .h{
 	font-family: Lato;
-	padding-left: 42.55em;
+	    margin-top: 0px;
 
 }
-.comp{
-	padding-left:700px;
+
+
+.myButton {
+	box-shadow:inset 0px -15px 7px 0px #42756b;
+	background:linear-gradient(to bottom, #20c3c9 5%, #0688fa 100%);
+	background-color:#20c3c9;
+	border-radius:3px;
+	border:0.5px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Lato;
+	font-size:21px;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
 }
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #20c3c9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 /*px are calculated using box model width in chrome inspect*/
+
